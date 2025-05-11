@@ -19,7 +19,6 @@ import steel from "./assets/steel.svg";
 import water from "./assets/water.svg";
 import pokeball from "./assets/pokeball.svg";
 
-const a="2"
 /**
  *  Iconos de los tipos de Pokémon
  */
