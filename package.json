@@ -9,6 +9,12 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "lint-staged": {
+  "**/*.{js,jsx,ts,tsx}": [
+    "prettier --write",
+    "eslint --fix"
+  ]
+  },
   "engines": {
     "node": "22"
   },
